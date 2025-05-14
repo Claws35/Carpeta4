@@ -21,25 +21,22 @@ function App() {
           </div>
           <img src={formaCompleta} alt="" className="" />
         </div>
-        <div className="flex flex-col items-center justify-between h-screen">
-          <div flex className="flex gap-2">
-            <div>
-              <h3 className="font-[new-order] text-[72px] font-semibold">
+        <div className="flex flex-col items-center justify-between h-screen mt-10">
+          <div flex className="flex flex-col justify-center items-center">
+            <div className="flex gap-100 ml-10">
+              <h3 className="font-[new-order] text-[72px] font-semibold text-[#e63946]">
                 Emocional
               </h3>
-              <h3 className="font-[new-order] text-[72px] font-semibold ">
-                Impactante
-              </h3>
-            </div>
-            <div>
-              {" "}
-              <h3 className="font-[new-order] text-[72px] font-semibold">
+              <h3 className="font-[new-order] text-[72px] font-semibold text-[#f08032] ">
                 Minimalista
               </h3>
-              <h3
-                className="font-[new-order] text-[72px] font-semibold 
-"
-              >
+            </div>
+            <div className="flex justify-centre gap-60 mr-20 mt-10">
+              {" "}
+              <h3 className="font-[new-order] text-[72px] font-semibold text-[#f08032]">
+                Impactante
+              </h3>
+              <h3 className="font-[new-order] text-[72px] font-semibold text-[#e63946] ">
                 Sensible
               </h3>
             </div>

@@ -22,7 +22,7 @@ export const PROJECTS = [
     description:
       "Un video Motion Graphics que narra la fascinante historia de la Estancia La Aurora.",
     link: "https://youtu.be/H0Bfar_mKFw",
-    image: "src/img/projects/fotoVocesAnimacion.webp",
+    image: "src/img/projects/fotoVocesAnimacion.jpg",
     tags: [TAGS.NEXT],
   },
   {
@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "Un video Motion Graphics basado en la canción Nunca Estoy de C. Tangana.",
     link: "https://youtu.be/0iQ_QL0pFG8?si=JWQxCJYdbx2dfVN9",
-    image: "../img/projects/introImagenNuncaEstoy2.webp",
+    image: "src/img/projects/introImagenNuncaEstoy2.webp",
     tags: [TAGS.NEXT],
   },
 ];

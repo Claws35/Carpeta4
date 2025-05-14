@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="bg-[#f1dfbd]">
         <div className="flex flex-col items-center justify-between h-screen">
-          <div className="mt-[150px] flex flex-col items-center  gap-2">
+          <div className="mt-[150px] flex flex-col items-center  gap-2 mb-30">
             <h1 className="font-[new-order] text-[150px] font-bold leading-none">
               Portfolio
             </h1>
@@ -19,7 +19,7 @@ function App() {
               Mateo Cutinella
             </h2>
           </div>
-          <img src={formaCompleta} alt="" className="mb-0" />
+          <img src={formaCompleta} alt="" className="" />
         </div>
         <div className="flex flex-col items-center justify-between h-screen">
           <div flex className="flex gap-2">

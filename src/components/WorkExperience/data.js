@@ -1,25 +1,16 @@
 export const workExperiences = [
   {
-    title: "Frontend Developer",
-    company: "Tech Solutions Inc.",
+    date: "Febrero 2024",
+    title: "Creador de Contenido",
+    company: "colectivo.work",
     description:
-      "Developed responsive web applications using React and TypeScript. Collaborated with design team to implement UI components.",
-    date: "2022 - Present",
-    link: "https://example.com",
+      "Tuve una breve experiencia laboral como freelance en un proyecto, la cual fue invaluable para comprender mejor el funcionamiento del mercado y adquirir conocimientos prácticos sobre su dinámica.",
   },
   {
-    title: "UI Designer",
-    company: "Creative Agency",
+    date: "Mayo 2023 - Agosto 2023",
+    title: " Asistente de Profesor",
+    company: "Universidad ORT Uruguay",
     description:
-      "Designed user interfaces for mobile and web applications. Created wireframes and prototypes for client presentations.",
-    date: "2020 - 2022",
-    link: "https://example.com",
-  },
-  {
-    title: "Junior Developer",
-    company: "Startup Ventures",
-    description:
-      "Assisted in developing and maintaining company website. Learned modern web development practices.",
-    date: "2018 - 2020",
+      "Colaboré como asistente en una materia dedicada a la producción de contenido, contribuyendo a la creación de animaciones y al desarrollo de material para redes sociales, lo que me permitió adquirir experiencia práctica en el ámbito académico y digital.",
   },
 ];

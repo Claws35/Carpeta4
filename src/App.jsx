@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import imagenSol from "./img/PersonaSol.png";
 import triangulo from "./img/triangulo.png";
-import formaCompleta from "./img/triangulo.png";
+import formaCompleta from "./img/preuba2.png";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
               Mateo Cutinella
             </h2>
           </div>
-          <img src={imagenSol} alt="" className="mb-0" />
+          <img src={formaCompleta} alt="" className="mb-0" />
         </div>
         <div className="flex flex-col items-center justify-between h-screen">
           <div flex className="flex gap-2">
@@ -31,7 +31,6 @@ function App() {
                 Impactante
               </h3>
             </div>
-            <img src={triangulo} alt="" className="mb-0" />
             <div>
               {" "}
               <h3 className="font-[new-order] text-[72px] font-semibold">

@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "Un video Motion Graphics basado en la canción Nunca Estoy de C. Tangana.",
     link: "https://youtu.be/0iQ_QL0pFG8?si=JWQxCJYdbx2dfVN9",
-    image: "src/img/projects/introImagenNuncaEstoy2.webp",
+    image: "../img/projects/introImagenNuncaEstoy2.webp",
     tags: [TAGS.NEXT],
   },
 ];

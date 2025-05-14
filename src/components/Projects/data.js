@@ -1,4 +1,6 @@
 import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
+import imagenCarpetaAnual from "../../img/projects/hola.webp";
+import imagenNuncaEstoy from "../../img/projects/introImagenNuncaEstoy2.webp";
 
 export const TAGS = {
   NEXT: {
@@ -33,7 +35,7 @@ export const PROJECTS = [
       "Video recopilando brevemente trabajos de facultad del año 2023.",
     link: "https://youtu.be/JGSDgqFpfnw?si=mCrISxhvBtzUPqzD",
     github: "",
-    image: "src/img/projects/hola.webp",
+    image: imagenCarpetaAnual,
     tags: [TAGS.NEXT],
   },
   {
@@ -41,7 +43,7 @@ export const PROJECTS = [
     description:
       "Un video Motion Graphics basado en la canción Nunca Estoy de C. Tangana.",
     link: "https://youtu.be/0iQ_QL0pFG8?si=JWQxCJYdbx2dfVN9",
-    image: "src/img/projects/introImagenNuncaEstoy2.webp",
+    image: imagenNuncaEstoy,
     tags: [TAGS.NEXT],
   },
 ];

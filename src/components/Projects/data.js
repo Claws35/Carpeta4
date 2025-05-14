@@ -1,3 +1,5 @@
+import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
+
 export const TAGS = {
   NEXT: {
     name: "After Effects",
@@ -22,7 +24,7 @@ export const PROJECTS = [
     description:
       "Un video Motion Graphics que narra la fascinante historia de la Estancia La Aurora.",
     link: "https://youtu.be/H0Bfar_mKFw",
-    image: "src/img/projects/fotoVocesAnimacion.jpg",
+    image: imagenMotionVoces,
     tags: [TAGS.NEXT],
   },
   {

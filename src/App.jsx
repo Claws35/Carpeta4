@@ -20,7 +20,7 @@ function App() {
               left: "-200px",
               width: shape.size,
               animation: `moveHorizontal ${shape.speed} linear ${shape.delay} infinite`,
-              zIndex: 1,
+              zIndex: shape.zIndex || 1,
             }}
           >
             <img src={shape.image} alt="" className="w-full h-auto" />

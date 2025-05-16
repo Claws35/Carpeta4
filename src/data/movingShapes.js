@@ -1,6 +1,6 @@
-import forma1 from "../img/forma1.png";
+/* import forma1 from "../img/forma1.png";
 import forma2 from "../img/forma2.png";
-
+ */
 // 40 formas fijas desde la izquierda
 const fixedShapes = [
   // Primeras 20 formas (originales)

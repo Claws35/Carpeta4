@@ -1,1 +1,21 @@
-@import "tailwindcss";
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(120vw); /* Mueve mucho más allá del viewport */
+  }
+}
+
+@keyframes moveHorizontalOnce {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(150vw); /* Sale del viewport, no vuelve */
+  }
+}
+
+.move-horizontal {
+  will-change: transform;
+}

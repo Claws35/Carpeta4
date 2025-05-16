@@ -1,0 +1,356 @@
+import forma1 from "../img/forma1.png";
+import forma2 from "../img/forma2.png";
+
+// 40 formas fijas desde la izquierda
+const fixedShapes = [
+  // Primeras 20 formas (originales)
+  {
+    id: 1,
+    image: forma1,
+    size: "150px",
+    top: "5%",
+    speed: "30s",
+    delay: "-10s",
+  },
+  {
+    id: 2,
+    image: forma2,
+    size: "170px",
+    top: "30%",
+    speed: "35s",
+    delay: "-13s",
+  },
+  {
+    id: 3,
+    image: forma1,
+    size: "140px",
+    top: "15%",
+    speed: "40s",
+    delay: "-7s",
+  },
+  {
+    id: 4,
+    image: forma2,
+    size: "160px",
+    top: "20%",
+    speed: "38s",
+    delay: "-11s",
+  },
+  {
+    id: 5,
+    image: forma1,
+    size: "130px",
+    top: "25%",
+    speed: "32s",
+    delay: "12s",
+  },
+  {
+    id: 6,
+    image: forma2,
+    size: "150px",
+    top: "30%",
+    speed: "28s",
+    delay: "-16s",
+  },
+  {
+    id: 7,
+    image: forma1,
+    size: "180px",
+    top: "35%",
+    speed: "45s",
+    delay: "-14s",
+  },
+  {
+    id: 8,
+    image: forma2,
+    size: "160px",
+    top: "40%",
+    speed: "37s",
+    delay: "18s",
+  },
+  {
+    id: 9,
+    image: forma1,
+    size: "145px",
+    top: "45%",
+    speed: "33s",
+    delay: "2s",
+  },
+  {
+    id: 10,
+    image: forma2,
+    size: "155px",
+    top: "50%",
+    speed: "39s",
+    delay: "23s",
+  },
+  {
+    id: 11,
+    image: forma1,
+    size: "135px",
+    top: "55%",
+    speed: "41s",
+    delay: "21s",
+  },
+  {
+    id: 12,
+    image: forma2,
+    size: "165px",
+    top: "60%",
+    speed: "27s",
+    delay: "5s",
+  },
+  {
+    id: 13,
+    image: forma1,
+    size: "175px",
+    top: "65%",
+    speed: "36s",
+    delay: "16s",
+  },
+  {
+    id: 14,
+    image: forma2,
+    size: "150px",
+    top: "70%",
+    speed: "34s",
+    delay: "12s",
+  },
+  {
+    id: 15,
+    image: forma1,
+    size: "140px",
+    top: "75%",
+    speed: "29s",
+    delay: "14s",
+  },
+  {
+    id: 16,
+    image: forma2,
+    size: "160px",
+    top: "10%",
+    speed: "26s",
+    delay: "15s",
+  },
+  {
+    id: 17,
+    image: forma1,
+    size: "130px",
+    top: "85%",
+    speed: "31s",
+    delay: "7s",
+  },
+  {
+    id: 18,
+    image: forma2,
+    size: "170px",
+    top: "70%",
+    speed: "28s",
+    delay: "18s",
+  },
+  {
+    id: 19,
+    image: forma1,
+    size: "160px",
+    top: "12%",
+    speed: "30s",
+    delay: "12s",
+  },
+  {
+    id: 20,
+    image: forma2,
+    size: "150px",
+    top: "10%",
+    speed: "35s",
+    delay: "26s",
+  },
+
+  // 20 formas fijas adicionales
+  {
+    id: 21,
+    image: forma1,
+    size: "125px",
+    top: "8%",
+    speed: "31s",
+    delay: "-5s",
+  },
+  {
+    id: 22,
+    image: forma2,
+    size: "145px",
+    top: "13%",
+    speed: "33s",
+    delay: "-20s",
+  },
+  {
+    id: 23,
+    image: forma1,
+    size: "165px",
+    top: "18%",
+    speed: "29s",
+    delay: "-22s",
+  },
+  {
+    id: 24,
+    image: forma1,
+    size: "155px",
+    top: "23%",
+    speed: "42s",
+    delay: "-20s",
+  },
+  {
+    id: 25,
+    image: forma1,
+    size: "135px",
+    top: "28%",
+    speed: "36s",
+    delay: "23s",
+  },
+  {
+    id: 26,
+    image: forma2,
+    size: "175px",
+    top: "33%",
+    speed: "31s",
+    delay: "-29s",
+  },
+  {
+    id: 27,
+    image: forma1,
+    size: "145px",
+    top: "38%",
+    speed: "38s",
+    delay: "24s",
+  },
+  {
+    id: 28,
+    image: forma2,
+    size: "165px",
+    top: "43%",
+    speed: "34s",
+    delay: "-17s",
+  },
+  {
+    id: 29,
+    image: forma1,
+    size: "155px",
+    top: "48%",
+    speed: "40s",
+    delay: "20s",
+  },
+  {
+    id: 30,
+    image: forma2,
+    size: "135px",
+    top: "53%",
+    speed: "32s",
+    delay: "-5s",
+  },
+  {
+    id: 31,
+    image: forma1,
+    size: "175px",
+    top: "58%",
+    speed: "37s",
+    delay: "1s",
+  },
+  {
+    id: 32,
+    image: forma2,
+    size: "145px",
+    top: "63%",
+    speed: "39s",
+    delay: "-14s",
+  },
+  {
+    id: 33,
+    image: forma1,
+    size: "165px",
+    top: "68%",
+    speed: "35s",
+    delay: "-9s",
+  },
+  {
+    id: 34,
+    image: forma2,
+    size: "155px",
+    top: "73%",
+    speed: "41s",
+    delay: "-6s",
+  },
+  {
+    id: 35,
+    image: forma1,
+    size: "135px",
+    top: "78%",
+    speed: "33s",
+    delay: "1s",
+  },
+  {
+    id: 36,
+    image: forma1,
+    size: "175px",
+    top: "13%",
+    speed: "30s",
+    delay: "-10s",
+  },
+  {
+    id: 37,
+    image: forma1,
+    size: "145px",
+    top: "18%",
+    speed: "38s",
+    delay: "16s",
+  },
+  {
+    id: 38,
+    image: forma1,
+    size: "165px",
+    top: "43%",
+    speed: "36s",
+    delay: "-25s",
+  },
+  {
+    id: 39,
+    image: forma1,
+    size: "155px",
+    top: "33%",
+    speed: "34s",
+    delay: "-4s",
+  },
+  {
+    id: 40,
+    image: forma1,
+    size: "135px",
+    top: "57%",
+    speed: "39s",
+    delay: "-8s",
+  },
+];
+
+// 10 formas generadas aleatoriamente al cargar (reducidas para no saturar)
+const generateRandomShapes = () => {
+  const shapes = [];
+  const total = 10;
+  for (let i = 1; i <= total; i++) {
+    const randomSize = `${Math.floor(Math.random() * 60) + 120}px`;
+    const randomTop = `${Math.floor(Math.random() * 90)}%`;
+    const randomSpeed = `${Math.floor(Math.random() * 20) + 25}s`;
+    const randomDelay = `${Math.floor(Math.random() * 10)}s`;
+    const randomImage = Math.random() > 0.5 ? forma1 : forma2;
+
+    shapes.push({
+      id: 100 + i,
+      image: randomImage,
+      size: randomSize,
+      top: randomTop,
+      speed: randomSpeed,
+      delay: randomDelay,
+    });
+  }
+  return shapes;
+};
+
+const randomShapes = generateRandomShapes();
+
+export { fixedShapes, randomShapes };

@@ -1,5 +1,5 @@
-import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
 import imagenCarpetaAnual from "../../img/projects/hola.webp";
+import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
 import imagenNuncaEstoy from "../../img/projects/introImagenNuncaEstoy2.webp";
 
 export const TAGS = {

@@ -42,7 +42,7 @@ function App() {
 
           {/* Texto centrado encima de la imagen */}
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center mb-10">
-            <div className="flex gap-10">
+            <div className="flex gap-60">
               <h3 className="font-[new-order] text-[48px] font-semibold text-[#e63946]">
                 Emocional
               </h3>
@@ -50,7 +50,7 @@ function App() {
                 Minimalista
               </h3>
             </div>
-            <div className="flex gap-10 mt-4">
+            <div className="flex gap-40 mt-4 mr-20">
               <h3 className="font-[new-order] text-[48px] font-semibold text-[#f08032]">
                 Impactante
               </h3>

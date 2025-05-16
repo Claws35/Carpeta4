@@ -97,7 +97,7 @@ const fixedShapes = [
     image: forma2,
     size: "165px",
     top: "60%",
-    speed: "27s",
+    speed: "26s",
     delay: "5s",
   },
   {

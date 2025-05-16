@@ -3,7 +3,7 @@ import formaCompleta from "./img/preuba2.png";
 import { WorkExperienceSection } from "./components/WorkExperience/WorkExperienceSection";
 import { ProjectsSection } from "./components/Projects/ProjectsSection";
 import imagenPofolio from "./img/yoImgportfolio.jpg";
-//import { fixedShapes, randomShapes } from "./data/movingShapes";
+import { fixedShapes, randomShapes } from "./data/movingShapes";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       {/* Hero Section con formas animadas */}
       <div className="relative overflow-hidden">
         {/* Formas decorativas con animación horizontal */}
-        {/* {[...fixedShapes, ...randomShapes].map((shape) => (
+        {[...fixedShapes, ...randomShapes].map((shape) => (
           <div
             key={shape.id}
             className="absolute pointer-events-none select-none"
@@ -25,7 +25,7 @@ function App() {
           >
             <img src={shape.image} alt="" className="w-full h-auto" />
           </div>
-        ))} */}
+        ))}
 
         {/* Contenido del hero */}
         <div className="flex flex-col items-center justify-between h-full relative z-10">

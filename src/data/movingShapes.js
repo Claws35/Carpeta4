@@ -1,5 +1,5 @@
-/* import forma1 from "../img/nube1.png";
-import forma2 from "../img/nube2.png";
+import forma1 from "../img/forma1.png";
+import forma2 from "../img/forma2.png";
 
 // 40 formas fijas desde la izquierda
 const fixedShapes = [
@@ -354,4 +354,3 @@ const generateRandomShapes = () => {
 const randomShapes = generateRandomShapes();
 
 export { fixedShapes, randomShapes };
- */

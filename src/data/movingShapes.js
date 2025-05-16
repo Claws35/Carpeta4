@@ -329,7 +329,7 @@ const fixedShapes = [
 ];
 
 // 10 formas generadas aleatoriamente al cargar (reducidas para no saturar)
-const generateRandomShapes = () => {
+/* const generateRandomShapes = () => {
   const shapes = [];
   const total = 10;
   for (let i = 1; i <= total; i++) {
@@ -351,6 +351,6 @@ const generateRandomShapes = () => {
   return shapes;
 };
 
-const randomShapes = generateRandomShapes();
+const randomShapes = generateRandomShapes(); */
 
-export { fixedShapes, randomShapes };
+export { fixedShapes };

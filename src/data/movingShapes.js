@@ -353,4 +353,4 @@ const fixedShapes = [
 
 const randomShapes = generateRandomShapes(); */
 
-export { fixedShapes };
+export default { fixedShapes };

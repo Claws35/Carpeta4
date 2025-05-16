@@ -1,5 +1,5 @@
-import forma1 from "../img/Forma1.png";
-import forma2 from "../img/Forma2.png";
+import forma1 from "../img/nube1.png";
+import forma2 from "../img/nube2.png";
 
 // 40 formas fijas desde la izquierda
 const fixedShapes = [
@@ -329,7 +329,7 @@ const fixedShapes = [
 ];
 
 // 10 formas generadas aleatoriamente al cargar (reducidas para no saturar)
-/* const generateRandomShapes = () => {
+const generateRandomShapes = () => {
   const shapes = [];
   const total = 10;
   for (let i = 1; i <= total; i++) {
@@ -351,6 +351,6 @@ const fixedShapes = [
   return shapes;
 };
 
-const randomShapes = generateRandomShapes(); */
+const randomShapes = generateRandomShapes();
 
-export default { fixedShapes };
+export { fixedShapes, randomShapes };

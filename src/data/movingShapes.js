@@ -142,7 +142,7 @@ const fixedShapes = [
     id: 16,
     image: forma2,
     size: "170px",
-    top: "30%",
+    top: "29%", // Cambiado de "30%"
     speed: "35s",
     delay: "-13s",
     zIndex: 1,
@@ -151,7 +151,7 @@ const fixedShapes = [
     id: 17,
     image: forma1,
     size: "140px",
-    top: "30%",
+    top: "31%", // Cambiado de "30%"
     speed: "29s",
     delay: "14s",
     zIndex: 1,
@@ -187,7 +187,7 @@ const fixedShapes = [
     id: 21,
     image: forma1,
     size: "180px",
-    top: "35%",
+    top: "33%", // Cambiado de "35%"
     speed: "45s",
     delay: "-14s",
     zIndex: 1,
@@ -322,7 +322,7 @@ const fixedShapes = [
     id: 36,
     image: forma1,
     size: "175px",
-    top: "65%",
+    top: "67%", // Cambiado de "65%"
     speed: "36s",
     delay: "16s",
     zIndex: 20,
@@ -340,7 +340,7 @@ const fixedShapes = [
     id: 38,
     image: forma2,
     size: "170px",
-    top: "70%",
+    top: "69%", // Cambiado de "70%"
     speed: "28s",
     delay: "18s",
     zIndex: 1,
@@ -394,7 +394,7 @@ const fixedShapes = [
     id: 44,
     image: forma1,
     size: "130px",
-    top: "85%",
+    top: "87%", // Cambiado de "85%"
     speed: "31s",
     delay: "7s",
     zIndex: 1,

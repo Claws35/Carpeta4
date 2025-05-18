@@ -6,6 +6,25 @@
     transform: translateX(120vw); /* Mueve mucho más allá del viewport */
   }
 }
+@keyframes moveHorizontalMobile {
+  0% {
+    transform: translateX(0);
+    filter: sepia(1);
+  }
+  40% {
+    filter: sepia(0);
+  }
+  40% {
+    filter: sepia(0);
+  }
+  60% {
+    filter: sepia(0.3);
+  }
+  100% {
+    filter: sepia(1);
+    transform: translateX(170vw); /* Mueve mucho más allá del viewport */
+  }
+}
 
 @keyframes moveHorizontalOnce {
   0% {
@@ -18,4 +37,15 @@
 
 .move-horizontal {
   will-change: transform;
+}
+.shape-img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .shape-img {
+    width: 60% !important;
+    max-width: 80px !important;
+  }
 }

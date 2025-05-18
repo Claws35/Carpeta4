@@ -4,6 +4,7 @@ import { WorkExperienceSection } from "./components/WorkExperience/WorkExperienc
 import { ProjectsSection } from "./components/Projects/ProjectsSection";
 import imagenPofolio from "./img/yoImgportfolio.jpg";
 import { fixedShapes, randomShapes } from "./data/movingShapes";
+import { RiInstagramFill, RiLinkedinBoxFill, RiMailFill } from "react-icons/ri";
 
 function App() {
   return (
@@ -30,10 +31,10 @@ function App() {
         {/* Contenido del hero */}
         <div className="flex flex-col items-center justify-between h-full relative z-10">
           <div className="mt-[150px] flex flex-col items-center gap-2 mb-30">
-            <h1 className="font-[new-order] text-[150px] font-bold leading-none">
+            <h1 className="font-[new-order] text-[150px] font-bold leading-none text-[#1d1d1d]">
               Portfolio
             </h1>
-            <h2 className="font-[new-order] text-[72px] font-semibold leading-none">
+            <h2 className="font-[new-order] text-[72px] font-semibold leading-none text-[#1d1d1d]">
               Mateo Cutinella
             </h2>
           </div>
@@ -96,6 +97,126 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* contacto */}
+
+      <div className="hidden ">
+        <div className="flex flex-col items-center pt-10 mb-20 bg-[#316998] ">
+          <h2 className="font-[new-order] text-[72px] font-bold text-[#f6f2e6]">
+            Contacto
+          </h2>
+          {/* Links circulares */}
+          <div className="flex gap-8 mb-2">
+            <a
+              href="mailto:mateo@email.com"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-[#f6f2e6] text-[#f08032] text-2xl hover:scale-110 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Email"
+            >
+              <RiMailFill />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mateocutinella"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-[#f6f2e6] text-[#f08032] text-2xl hover:scale-110 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <RiLinkedinBoxFill />
+            </a>
+            <a
+              href="https://github.com/mateocutinella"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-[#f6f2e6] text-[#f08032] text-2xl hover:scale-110 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <RiInstagramFill />
+            </a>
+          </div>
+          {/* Formulario de contacto */}
+          <form className="flex flex-col gap-6 w-[500px] max-w-md  p-8 rounded-2xl items-center ">
+            <input
+              type="text"
+              placeholder="Nombre"
+              className="bg-[#f6f2e6] px-4 py-2 focus:outline-none w-[400px] focus:border-[#e63946]"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Correo electrónico"
+              className=" bg-[#f6f2e6]  px-4 py-2 focus:outline-none w-[400px] focus:border-[#e63946]"
+              required
+            />
+            <textarea
+              placeholder="Mensaje"
+              className="bg-[#f6f2e6]  px-4 py-2 h-32 resize-none w-[400px] focus:outline-none focus:border-[#e63946]"
+              required
+            />
+            <button
+              type="submit"
+              className="bg-[#f1ae3f] text-white font-bold py-2  hover:bg-[#f08032] transition w-[200px]"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center justify-center mt-20 mb-20  py-4">
+        <h2 className="font-[new-order] text-[72px] font-semibold leading-none mr-5 inline-block">
+          Trabajemos
+        </h2>
+        <h2 className="font-[new-order] text-[72px] font-bold leading-none mb-10 ml-20 inline-block">
+          juntos
+        </h2>
+        <h3 className="font-[new-order] text-[24px] mt-5 mb-10">
+          Mandame un mensaje en mis redes sociales
+        </h3>
+        <div className="flex gap-8 mb-2">
+          {" "}
+          <a
+            href="https://www.linkedin.com/in/mateocutinella"
+            className="w-12 h-12 flex items-center justify-center rounded-full  text-[#1d1d1d] text-[60px] hover:scale-110 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <RiLinkedinBoxFill />
+          </a>{" "}
+          <a
+            href="https://www.linkedin.com/in/mateocutinella"
+            className="w-12 h-12 flex items-center justify-center rounded-full  text-[#1d1d1d] text-[60px] hover:scale-110 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <RiLinkedinBoxFill />
+          </a>{" "}
+          <a
+            href="https://www.linkedin.com/in/mateocutinella"
+            className="w-12 h-12 flex items-center justify-center rounded-full  text-[#1d1d1d] text-[60px] hover:scale-110 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <RiLinkedinBoxFill />
+          </a>{" "}
+          <a
+            href="https://www.linkedin.com/in/mateocutinella"
+            className="w-12 h-12 flex items-center justify-center rounded-full  text-[#1d1d1d] text-[60px] hover:scale-110 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <RiLinkedinBoxFill />
+          </a>
+        </div>
+      </div>
+      <footer className="w-full py-6 bg-[#f1dfbd] text-center text-[#1d1d1d] font-[new-order] text-lg  border-[#e6cfa5]">
+        © {new Date().getFullYear()} Mateo Cutinella.
+      </footer>
     </div>
   );
 }

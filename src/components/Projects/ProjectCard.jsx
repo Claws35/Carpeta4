@@ -13,7 +13,7 @@ export function ProjectCard({ image, title, description, tags, link, github }) {
       </div>
 
       <div className="w-full md:w-1/2 md:max-w-lg">
-        <h3 className="text-2xl font-bold text-gray-800">{title}</h3>
+        <h3 className="text-2xl font-bold text-[#1d1d1d]">{title}</h3>
         <div className="flex flex-wrap mt-2">
           <ul className="flex flex-row mb-2 gap-x-2">
             {tags.map((tag, tagIndex) => (
@@ -40,6 +40,7 @@ export function ProjectCard({ image, title, description, tags, link, github }) {
             )}
             {link && (
               <a
+                target="_blank"
                 href={link}
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-[#316998] rounded-md hover:bg-[#25507d]"
               >

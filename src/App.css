@@ -9,19 +9,9 @@
 @keyframes moveHorizontalMobile {
   0% {
     transform: translateX(0);
-    filter: sepia(1);
   }
-  40% {
-    filter: sepia(0);
-  }
-  40% {
-    filter: sepia(0);
-  }
-  60% {
-    filter: sepia(0.3);
-  }
+
   100% {
-    filter: sepia(1);
     transform: translateX(170vw); /* Mueve mucho más allá del viewport */
   }
 }

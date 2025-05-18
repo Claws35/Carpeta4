@@ -117,7 +117,7 @@ const fixedShapes = [
     size: "130px",
     top: "25%",
     speed: "32s",
-    delay: "12s",
+    delay: "15s",
     zIndex: 20,
   },
   {
@@ -141,7 +141,7 @@ const fixedShapes = [
   {
     id: 16,
     image: forma2,
-    size: "170px",
+    size: "150px",
     top: "29%", // Cambiado de "30%"
     speed: "35s",
     delay: "-13s",
@@ -187,9 +187,9 @@ const fixedShapes = [
     id: 21,
     image: forma1,
     size: "180px",
-    top: "33%", // Cambiado de "35%"
-    speed: "45s",
-    delay: "-14s",
+    top: "42%", // Cambiado de "35%"
+    speed: "34s",
+    delay: "-1s",
     zIndex: 1,
   },
   {
@@ -401,30 +401,4 @@ const fixedShapes = [
   },
 ];
 
-// 10 formas aleatorias
-const generateRandomShapes = () => {
-  const shapes = [];
-  const total = 10;
-  for (let i = 1; i <= total; i++) {
-    const randomSize = `${Math.floor(Math.random() * 60) + 120}px`;
-    const randomTop = `${Math.floor(Math.random() * 90)}%`;
-    const randomSpeed = `${Math.floor(Math.random() * 20) + 25}s`;
-    const randomDelay = `${Math.floor(Math.random() * 10)}s`;
-    const randomImage = Math.random() > 0.5 ? forma1 : forma2;
-
-    shapes.push({
-      id: 100 + i,
-      image: randomImage,
-      size: randomSize,
-      top: randomTop,
-      speed: randomSpeed,
-      delay: randomDelay,
-      zIndex: 1,
-    });
-  }
-  return shapes;
-};
-
-const randomShapes = generateRandomShapes();
-
-export { fixedShapes, randomShapes };
+export { fixedShapes };

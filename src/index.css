@@ -1,4 +1,25 @@
 @import "tailwindcss";
+
+.light {
+  --color-text-rgb: 29, 29, 29; /* #1d1d1d */
+  --color-light-rgb: 246, 242, 230; /* #f6f2e6 */
+  --color-background-rgb: 241, 223, 189; /* #f1dfbd */
+  --color-primary-rgb: 240, 128, 50; /* #f08032 */
+  --color-yellow-rgb: 241, 174, 63; /* #f1ae3f */
+  --color-blue-rgb: 49, 105, 152; /* #316998 */
+  --color-secondary-rgb: 230, 57, 70; /* #e63946 */
+}
+
+.dark {
+  --color-background-rgb: 29, 29, 29; /* #1d1d1d */
+  --color-text-rgb: 246, 242, 230; /* #f6f2e6 */
+  --color-beige-rgb: 241, 223, 189; /* #f1dfbd */
+  --color-primary-rgb: 240, 128, 50; /* #f08032 */
+  --color-yellow-rgb: 241, 174, 63; /* #f1ae3f */
+  --color-blue-rgb: 49, 105, 152; /* #316998 */
+  --color-secondary-rgb: 230, 57, 70; /* #e63946 */
+}
+
 @theme {
   --breakpoint-xs: 30rem;
   --breakpoint-2xl: 100rem;

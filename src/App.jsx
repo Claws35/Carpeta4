@@ -1,6 +1,6 @@
 import "./App.css";
 import formaCompletaLight from "./img/imagenHeroOscura.png";
-import formaCompletaDark from "./img/ImagenHeroClara.png";
+import formaCompletaDark from "./img/imagenHeroClara.png";
 import { WorkExperienceSection } from "./components/WorkExperience/WorkExperienceSection";
 import { ProjectsSection } from "./components/Projects/ProjectsSection";
 import { ContactSection } from "./components/ContactSection";

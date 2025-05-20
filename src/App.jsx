@@ -158,7 +158,7 @@ function App() {
           </div>
         </div>
 
-        {/* Experiencia y proyectos */}
+        {/* Experiencia y proyectoss */}
         <div className="px-4 md:px-4 lg:px-0">
           <WorkExperienceSection />
           <ProjectsSection />

@@ -34,6 +34,7 @@ function App() {
       duration: 800, // Duración de las animaciones
       once: true, // Si las animaciones solo ocurren una vez
       easing: "ease-in-out", // Tipo de easing
+      disable: window.innerWidth < 768,
     });
   }, []);
   return (

@@ -1,17 +1,25 @@
 import React from "react";
 import imagenPofolio from "../img/yoImgportfolio.jpg";
-
+import Aos from "aos";
 const SobreMi = () => {
   return (
     <div
       className="flex flex-col items-center md:items-start max-w-[800px] gap-6 mx-auto mt-10 relative z-20"
       style={{ color: "rgba(var(--color-text-rgb), 1)" }}
     >
-      <h2 className="font-[new-order] text-[52px] font-bold leading-none mb-5">
+      <h2
+        className="font-[new-order] text-[52px] font-bold leading-none mb-5"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
         Sobre mí
       </h2>
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
-        <div className="max-w-[500px] md:max-w-[400px]">
+        <div
+          className="max-w-[500px] md:max-w-[400px]"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <p>
             Me llamo Mateo Cutinella, estudiante avanzado en la licenciatura en
             diseño Multimedia y desde siempre he tenido una pasión por el diseño
@@ -31,6 +39,8 @@ const SobreMi = () => {
             className="w-full h-full rounded-full object-cover"
             src={imagenPofolio}
             alt="Portfolio"
+            data-aos="fade-up"
+            data-aos-delay="100"
           />
         </div>
       </div>

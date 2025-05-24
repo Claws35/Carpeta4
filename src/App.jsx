@@ -1,6 +1,8 @@
 import "./App.css";
 import formaCompletaLight from "./img/ImagenHeroOscura.png";
 import formaCompletaDark from "./img/ImagenHeroClara.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { WorkExperienceSection } from "./components/WorkExperience/WorkExperienceSection";
 import { ProjectsSection } from "./components/Projects/ProjectsSection";
 import { ContactSection } from "./components/ContactSection";
@@ -27,7 +29,13 @@ function App() {
       setIsDark(mainDivRef.current.classList.contains("dark"));
     }
   }, []);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // Duración de las animaciones
+      once: true, // Si las animaciones solo ocurren una vez
+      easing: "ease-in-out", // Tipo de easing
+    });
+  }, []);
   return (
     <div className="light" ref={mainDivRef}>
       <button
@@ -93,23 +101,29 @@ function App() {
               className="relative z-10 w-[422px]"
             />
             {/* Texto centrado encima de la imagen */}
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 hidden md:flex flex-col items-center mb-10">
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 hidden md:flex flex-col items-center mb-10 ml-1">
               <div className="flex gap-60">
                 <h3
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-secondary-rgb), 1)" }}
+                  data-aos="fade-right"
+                  data-aos-delay="100"
                 >
                   Emocional
                 </h3>
                 <h3
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-primary-rgb), 1)" }}
+                  data-aos="fade-left"
+                  data-aos-delay="100"
                 >
                   Minimalista
                 </h3>
               </div>
-              <div className="flex gap-40 mt-4 mr-20">
+              <div className="flex gap-40 mt-4 mr-16">
                 <h3
+                  data-aos="fade-right"
+                  data-aos-delay="200"
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-primary-rgb), 1)" }}
                 >
@@ -118,6 +132,8 @@ function App() {
                 <h3
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-secondary-rgb), 1)" }}
+                  data-aos="fade-left"
+                  data-aos-delay="200"
                 >
                   Sensible
                 </h3>
@@ -135,6 +151,7 @@ function App() {
             >
               Emocional
             </h3>
+
             <h3
               className="font-[new-order] text-[36px] xs:text-[42px] sm:text-5xl font-semibold"
               style={{ color: "rgba(var(--color-primary-rgb), 1)" }}

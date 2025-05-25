@@ -52,7 +52,7 @@ export function ContactSection() {
           <RiLinkedinBoxFill />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/proyectocutinella/?hl=es"
           className="w-12 h-12 flex items-center justify-center rounded-full  text-[60px] hover:scale-110 transition"
           style={{ color: "rgba(var(--color-text-rgb), 1)" }}
           target="_blank"

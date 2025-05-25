@@ -13,7 +13,7 @@ export function ProjectsSection() {
           className="font-[new-order] text-[48px] md:text-[62px] lg:text-[72px] font-semibold leading-none mb-10 text-center"
           style={{ color: "rgba(var(--color-text-rgb), 1)" }}
           data-aos="fade-up"
-          data-aos-delay="100"
+          data-aos-delay="200"
         >
           Proyectos
         </h2>
@@ -21,7 +21,7 @@ export function ProjectsSection() {
           className="font-[new-order] text-[18px] md:text-[22px] lg:text-[26px] font-regular leading-none mb-10 md:mb-20 text-center"
           style={{ color: "rgba(var(--color-text-rgb), 0.9)" }}
           data-aos="fade-up"
-          data-aos-delay="100"
+          data-aos-delay="200"
         >
           Creaciones que representan mi pasión y dedicación
         </h3>
@@ -31,7 +31,7 @@ export function ProjectsSection() {
               key={index}
               {...project}
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-delay="300"
             />
           ))}
         </div>

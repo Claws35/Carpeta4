@@ -10,7 +10,7 @@ const SobreMi = () => {
       <h2
         className="font-[new-order] text-[52px] font-bold leading-none mb-5"
         data-aos="fade-up"
-        data-aos-delay="100"
+        data-aos-delay="200"
       >
         Sobre mí
       </h2>
@@ -18,7 +18,7 @@ const SobreMi = () => {
         <div
           className="max-w-[500px] md:max-w-[400px]"
           data-aos="fade-up"
-          data-aos-delay="100"
+          data-aos-delay="200"
         >
           <p>
             Me llamo Mateo Cutinella, estudiante avanzado en la licenciatura en
@@ -40,7 +40,7 @@ const SobreMi = () => {
             src={imagenPofolio}
             alt="Portfolio"
             data-aos="fade-up"
-            data-aos-delay="100"
+            data-aos-delay="200"
           />
         </div>
       </div>

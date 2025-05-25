@@ -108,7 +108,7 @@ function App() {
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-secondary-rgb), 1)" }}
                   data-aos="fade-right"
-                  data-aos-delay="100"
+                  data-aos-delay="200"
                 >
                   Emocional
                 </h3>
@@ -116,7 +116,7 @@ function App() {
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-primary-rgb), 1)" }}
                   data-aos="fade-left"
-                  data-aos-delay="100"
+                  data-aos-delay="200"
                 >
                   Minimalista
                 </h3>
@@ -124,7 +124,7 @@ function App() {
               <div className="flex gap-40 mt-4 mr-16">
                 <h3
                   data-aos="fade-right"
-                  data-aos-delay="200"
+                  data-aos-delay="300"
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-primary-rgb), 1)" }}
                 >
@@ -134,7 +134,7 @@ function App() {
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-secondary-rgb), 1)" }}
                   data-aos="fade-left"
-                  data-aos-delay="200"
+                  data-aos-delay="300"
                 >
                   Sensible
                 </h3>

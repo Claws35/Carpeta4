@@ -1,6 +1,7 @@
 import imagenCarpetaAnual from "../../img/projects/hola.webp";
 import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
 import imagenNuncaEstoy from "../../img/projects/introImagenNuncaEstoy2.webp";
+import imagenPokemon from "../../img/projects/pokemonImagen.webp";
 
 export const TAGS = {
   NEXT: {
@@ -14,8 +15,8 @@ export const TAGS = {
     icon: null,
   },
   AFTEREFEECTS: {
-    name: "After Effects",
-    class: "bg-[#D291FF] text-black",
+    name: "React",
+    class: "bg-[#69b1e2] text-white",
     icon: null,
   },
 };
@@ -30,13 +31,20 @@ export const PROJECTS = [
     tags: [TAGS.NEXT],
   },
   {
-    title: "Carpeta Anual 3",
+    title: "Recopilación de trabajos 2023",
     description:
       "Video recopilando brevemente trabajos de facultad del año 2023.",
     link: "https://youtu.be/JGSDgqFpfnw?si=mCrISxhvBtzUPqzD",
     github: "",
     image: imagenCarpetaAnual,
     tags: [TAGS.NEXT],
+  },
+  {
+    title: "Pokedex",
+    description: "Una web de pokemon mostrando una nueva forma de pokedex.",
+    link: "https://pokemon-apps-zeta.vercel.app",
+    image: imagenPokemon,
+    tags: [TAGS.AFTEREFEECTS, TAGS.TAILWIND],
   },
   {
     title: "Lyrics Video Nunca Estoy",

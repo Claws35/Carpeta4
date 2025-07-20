@@ -1,5 +1,12 @@
 export const workExperiences = [
   {
+    date: "Junio 2025",
+    title: "Creador de Contenido",
+    company: "Nana Lavagna",
+    description:
+      "Creación de contenido visual para redes sociales con enfoque en propiedades de lujo. Desarrollé guiones, piezas animadas y publicaciones optimizadas para aumentar la visibilidad de la marca en entornos digitales.",
+  },
+  {
     date: "Febrero 2024",
     title: "Creador de Contenido",
     company: "colectivo.work",

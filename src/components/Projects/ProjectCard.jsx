@@ -12,7 +12,6 @@ export function ProjectCard({ image, title, description, tags, link, github }) {
           <img
             alt={title}
             className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
-            loading="lazy"
             src={image}
           />
         </div>

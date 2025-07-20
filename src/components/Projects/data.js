@@ -1,7 +1,8 @@
-import imagenCarpetaAnual from "../../img/projects/hola.webp";
-import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
-import imagenNuncaEstoy from "../../img/projects/introImagenNuncaEstoy2.webp";
-import imagenPokemon from "../../img/projects/pokemonImagen.webp";
+import imagenCarpetaAnual from "../../../dist/assets/hola.webp";
+import imagenMotionVoces from "../../../dist/assets/fotoVocesAnimacion.webp";
+import imagenNuncaEstoy from "../../../dist/assets/introImagenNuncaEstoy2.webp";
+import imagenPokemon from "../../../dist/assets/pokemonImagen.webp";
+import imagenAmelie from "../../../dist/assets/AmelieOceanResidentImg3.webp";
 
 export const TAGS = {
   NEXT: {
@@ -22,6 +23,14 @@ export const TAGS = {
 };
 
 export const PROJECTS = [
+  {
+    title: "Video Amélie Ocean Residences",
+    description:
+      "Pieza audiovisual para redes sociales que presenta el proyecto inmobiliario Amélie Ocean Residences.",
+    link: "https://www.instagram.com/reel/DLp1Wrsp7JF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", // Reemplazá con el link real si lo tenés
+    image: imagenAmelie, // Asegurate de tener esta imagen importada
+    tags: [TAGS.NEXT],
+  },
   {
     title: "Motion Graphics Voces Anónimas",
     description:

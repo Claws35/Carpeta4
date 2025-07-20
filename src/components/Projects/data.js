@@ -1,8 +1,9 @@
-import imagenCarpetaAnual from "../../../dist/assets/hola.webp";
-import imagenMotionVoces from "../../../dist/assets/fotoVocesAnimacion.webp";
-import imagenNuncaEstoy from "../../../dist/assets/introImagenNuncaEstoy2.webp";
-import imagenPokemon from "../../../dist/assets/pokemonImagen.webp";
-import imagenAmelie from "../../../dist/assets/AmelieOceanResidentImg3.webp";
+import imagenCarpetaAnual from "../../img/projects/hola.webp";
+import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
+import imagenNuncaEstoy from "../../img/projects/introImagenNuncaEstoy2.webp";
+import imagenPokemon from "../../img/projects/pokemonImagen.webp";
+import imagenAmelie from "../../img/projects/AmelieOceanResidentImg3.webp";
+
 //prueba
 export const TAGS = {
   NEXT: {

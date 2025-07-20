@@ -3,7 +3,7 @@ import imagenMotionVoces from "../../../dist/assets/fotoVocesAnimacion.webp";
 import imagenNuncaEstoy from "../../../dist/assets/introImagenNuncaEstoy2.webp";
 import imagenPokemon from "../../../dist/assets/pokemonImagen.webp";
 import imagenAmelie from "../../../dist/assets/AmelieOceanResidentImg3.webp";
-
+//prueba
 export const TAGS = {
   NEXT: {
     name: "After Effects",

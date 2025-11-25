@@ -3,6 +3,7 @@ import imagenMotionVoces from "../../img/projects/fotoVocesAnimacion.webp";
 import imagenNuncaEstoy from "../../img/projects/introImagenNuncaEstoy2.webp";
 import imagenPokemon from "../../img/projects/pokemonImagen.webp";
 import imagenAmelie from "../../img/projects/AmelieOceanResidentImg3.webp";
+import fotocarpeta4 from "../../img/projects/fotocarpeta4.webp";
 
 //prueba
 export const TAGS = {
@@ -24,6 +25,13 @@ export const TAGS = {
 };
 
 export const PROJECTS = [
+  {
+    title: "Recopilación de trabajos 2025",
+    description: "Video recopilando trabajos de facultad del año 2025.",
+    link: "https://youtu.be/FkZMTmnFSAA", // Reemplazá con el link real si lo tenés
+    image: fotocarpeta4, // Asegurate de tener esta imagen importada
+    tags: [TAGS.NEXT],
+  },
   {
     title: "Video Amélie Ocean Residences",
     description:

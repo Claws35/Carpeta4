@@ -36,7 +36,7 @@ export const PROJECTS = [
     title: "Video Amélie Ocean Residences",
     description:
       "Pieza audiovisual para redes sociales que presenta el proyecto inmobiliario Amélie Ocean Residences.",
-    link: "https://www.instagram.com/reel/DLp1Wrsp7JF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", // Reemplazá con el link real si lo tenés
+    link: "https://youtube.com/shorts/-q1Ho86mwfU?feature=share", // Reemplazá con el link real si lo tenés
     image: imagenAmelie, // Asegurate de tener esta imagen importada
     tags: [TAGS.NEXT],
   },

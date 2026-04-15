@@ -35,7 +35,22 @@ function App() {
       once: true, // Si las animaciones solo ocurren una vez
       easing: "ease-in-out", // Tipo de easing
       disable: window.innerWidth < 768,
+      offset: 120, // Distancia antes de activar la animación
+      anchorPlacement: "top-bottom", // Dónde se ancla la animación
     });
+
+    // Refresh después de que todo se renderize
+    const timer = setTimeout(() => {
+      AOS.refresh();
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    // Refresh cuando cambien las imágenes
+    window.addEventListener("load", AOS.refresh);
+    return () => window.removeEventListener("load", AOS.refresh);
   }, []);
   return (
     <div className="light" ref={mainDivRef}>
@@ -110,7 +125,7 @@ function App() {
                   data-aos="fade-right"
                   data-aos-delay="200"
                 >
-                  Emocional
+                  Innovador
                 </h3>
                 <h3
                   className="font-[new-order] text-[48px] font-semibold"
@@ -121,14 +136,14 @@ function App() {
                   Minimalista
                 </h3>
               </div>
-              <div className="flex gap-40 mt-4 mr-16">
+              <div className="flex gap-40 mt-4 mr-0">
                 <h3
                   data-aos="fade-right"
                   data-aos-delay="300"
                   className="font-[new-order] text-[48px] font-semibold"
                   style={{ color: "rgba(var(--color-primary-rgb), 1)" }}
                 >
-                  Impactante
+                  Funcional
                 </h3>
                 <h3
                   className="font-[new-order] text-[48px] font-semibold"
@@ -136,7 +151,7 @@ function App() {
                   data-aos="fade-left"
                   data-aos-delay="300"
                 >
-                  Sensible
+                  Sofisticado
                 </h3>
               </div>
             </div>

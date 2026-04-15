@@ -4,6 +4,7 @@ import imagenNuncaEstoy from "../../img/projects/introImagenNuncaEstoy2.webp";
 import imagenPokemon from "../../img/projects/pokemonImagen.webp";
 import imagenAmelie from "../../img/projects/AmelieOceanResidentImg3.webp";
 import fotocarpeta4 from "../../img/projects/fotocarpeta4.webp";
+import imagenDomera from "../../img/projects/domerauy.webp";
 
 //prueba
 export const TAGS = {
@@ -33,6 +34,14 @@ export const PROJECTS = [
     tags: [TAGS.NEXT],
   },
   {
+    title: "Video Domera.uy",
+    description:
+      "Pieza audiovisual para redes sociales mostrando que es Domera.uy.",
+    link: "https://youtube.com/shorts/HMv1cagfVjY", // Reemplazá con el link real si lo tenés
+    image: imagenDomera, // Asegurate de tener esta imagen importada
+    tags: [TAGS.NEXT],
+  },
+  {
     title: "Video Amélie Ocean Residences",
     description:
       "Pieza audiovisual para redes sociales que presenta el proyecto inmobiliario Amélie Ocean Residences.",
@@ -43,8 +52,8 @@ export const PROJECTS = [
   {
     title: "Motion Graphics Voces Anónimas",
     description:
-      "Un video Motion Graphics que narra la fascinante historia de la Estancia La Aurora.",
-    link: "https://youtu.be/H0Bfar_mKFw",
+      "Un video Motion Graphics que muestra el proyecto Voces Anónimas.",
+    link: "https://youtu.be/U6FtcuM6QAU",
     image: imagenMotionVoces,
     tags: [TAGS.NEXT],
   },

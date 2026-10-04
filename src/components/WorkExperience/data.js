@@ -4,7 +4,7 @@ export const workExperiences = [
     title: "Diseñador Multimedia",
     company: "Liberty Uruguay",
     description:
-      "Formo parte del departamento de Marketing de un operador mayorista de viajes. Diseño piezas estáticas y animadas, campañas de email y contenido para redes sociales, además de desarrollar sitios web y herramientas internas. También doy soporte a UAVI y al programa Liberty Capacita.",
+      "Formo parte del departamento de Marketing de un operador mayorista de viajes. Diseño piezas estáticas y animadas, campañas de email y contenido para redes sociales, además de desarrollar sitios web y herramientas internas.",
   },
   {
     date: "Junio 2025",

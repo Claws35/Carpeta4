@@ -1,5 +1,12 @@
 export const workExperiences = [
   {
+    date: "Mayo 2026 - Actualidad",
+    title: "Diseñador Multimedia",
+    company: "Liberty Uruguay",
+    description:
+      "Formo parte del departamento de Marketing de un operador mayorista de viajes. Diseño piezas estáticas y animadas, campañas de email y contenido para redes sociales, además de desarrollar sitios web y herramientas internas. También doy soporte a UAVI y al programa Liberty Capacita.",
+  },
+  {
     date: "Junio 2025",
     title: "Creador de Contenido",
     company: "Nana Lavagna",
@@ -15,7 +22,7 @@ export const workExperiences = [
   },
   {
     date: "Mayo 2023 - Agosto 2023",
-    title: " Asistente de Profesor",
+    title: "Asistente de Profesor",
     company: "Universidad ORT Uruguay",
     description:
       "Colaboré como asistente en una materia dedicada a la producción de contenido, contribuyendo a la creación de animaciones y al desarrollo de material para redes sociales, lo que me permitió adquirir experiencia práctica en el ámbito académico y digital.",
